@@ -1,0 +1,95 @@
+.createblogpost-backdrop{
+    min-height: 100vh;
+    background-image: url(https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg?cs=srgb&dl=pexels-kellie-churchman-1001682.jpg&fm=jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.createblogpost-color__overlay{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: rgb(13,27,42);
+background: linear-gradient(180deg, rgba(13,27,42,1) 0%, rgba(38,41,44,0.8352591036414566) 56%, rgba(0,212,255,0) 100%);
+}
+
+
+/* Create new blog post start */
+
+.createblogpost-form-container{
+    position: relative;
+
+    flex-direction: column;
+    gap: 20px;
+    top: 50px;
+    display: flex;
+    height: fit-content;
+    text-align: center;
+}
+
+.createblogpost-form-container h1{
+    color: white;
+    font-size: 3rem;
+}
+
+.createblogpost-form-container h1 span{
+    color: aqua;
+}
+
+
+.createblogpost-form-card{
+    border-radius: 0.5rem;
+    padding: 2rem;
+    width: clamp(300px, 70vw, 800px);
+    background-color: rgb(35, 40, 50);
+    color: rgb(178, 178, 178);
+}
+
+.blogpost_inputs{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 1rem;
+    gap: 10px;
+}
+
+.blogpost_inputs input{
+    padding: 0.5rem 0;
+   
+}
+
+.input_submit input{
+    cursor: pointer;
+    background-color: var(--secondary-color);
+}
+
+.input_submit input:hover{
+    position: relative;
+    top: -2px;
+    background-color: rgba(240, 239, 239, 0.821);
+}
+
+
+@media only screen and (max-width: 600px) {
+
+
+
+
+
+    /* Hero Section */
+
+    .createblogpost-form-container h1{
+        font-size: 1.7rem;
+    }
+
+
+
+}
+
+
+
+
+

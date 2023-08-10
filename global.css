@@ -1,0 +1,67 @@
+/* 
+Website Main Colors 
+#OD1B2A (dark blue)
+#E0E1DD (light grey)
+#778DA9 (light blue)
+
+*/
+
+
+
+
+:root {
+    --primary-color: #0D1B2A;
+    --secondary-color: #778DA9;
+    --site-background: #f0f3f4;
+    --font-color-primary: rgb(40, 40, 40);
+    --font-color-secondary: #e2e2e2;
+    font-family: 'Nunito', 'sans-serif';
+
+}
+
+input{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 2000px;
+    margin: 0 auto;
+    background-color: var(--site-background);
+   
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+.main_wrapper{
+    padding: 0 100px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .main_wrapper{
+        padding: 0 30px;
+    }
+    
+
+
+
+
+
+    
+}
